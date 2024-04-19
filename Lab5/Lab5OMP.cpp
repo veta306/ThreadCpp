@@ -27,9 +27,9 @@ int main() {
 #pragma omp section
         {
 
-            pair<int, long long> min_row_sum_1 = row_with_min_sum(100);
+            pair<int, long long> min_row_sum_1 = row_with_min_sum(1);
             cout << "Row with minimum sum: " << min_row_sum_1.first << ", Minimum sum: " << min_row_sum_1.second << endl;
-            pair<int, long long> min_row_sum_4 = row_with_min_sum(400);
+            pair<int, long long> min_row_sum_4 = row_with_min_sum(4);
             cout << "Row with minimum sum: " << min_row_sum_4.first << ", Minimum sum: " << min_row_sum_4.second << endl;
         }
     }
